@@ -85,7 +85,6 @@ export default async function RootLayout({ children }) {
         <div className="relative z-10">
           <Layout
             // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
-            navbar={navbar}
             editLink="Edit this page on GitHub"
             docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra"
             sidebar={{ defaultMenuCollapseLevel: 1 }}
@@ -95,7 +94,6 @@ export default async function RootLayout({ children }) {
           >
             <main>{children}</main>
           </Layout>
-          <Footer />
         </div>
         <GoogleAnalytics gaId="G-00VHQ8C00W" />
       </body>

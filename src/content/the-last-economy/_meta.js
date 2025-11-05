@@ -1,86 +1,86 @@
 export default {
   introduction: {
-    title: 'Introduction'
+    title: '引言'
   },
   'chapter-1': {
-    title: '1. The Intelligence Inversion'
+    title: '第一章：智能倒置'
   },
   'chapter-2': {
-    title: '2. Harbingers of the Storm'
+    title: '第二章：风暴的预兆'
   },
   'chapter-3': {
-    title: '3. The Seven Fatal Lies of a Dying Paradigm'
+    title: '第三章：垂死范式的七个致命谎言'
   },
   'chapter-4': {
-    title: '4. The Dashboard for Insanity'
+    title: '第四章：疯狂的仪表板'
   },
   'chapter-5': {
-    title: '5. The Trial by Fire'
+    title: '第五章：烈火试炼'
   },
   'chapter-6': {
-    title: '6. The Engine of Order'
+    title: '第六章：秩序引擎'
   },
   'chapter-7': {
-    title: '7. The Generative Engine'
+    title: '第七章：生成引擎'
   },
   'chapter-8': {
-    title: '8. The MIND of a Civilization'
+    title: '第八章：文明的心智'
   },
   'chapter-9': {
-    title: '9. The Three Flows'
+    title: '第九章：三种流动'
   },
   'chapter-10': {
-    title: '10. The Network Prison'
+    title: '第十章：网络囚笼'
   },
   'chapter-11': {
-    title: '11. The Cathedral and the Bazaar 2.0'
+    title: '第十一章：大教堂与集市2.0'
   },
   'chapter-12': {
-    title: '12. Intelligent Game Theory'
+    title: '第十二章：智能博弈论'
   },
   'chapter-13': {
-    title: '13. The Dual Engine'
+    title: '第十三章：双引擎'
   },
   'chapter-14': {
-    title: '14. The New Social Contract'
+    title: '第十四章：新社会契约'
   },
   'chapter-15': {
-    title: '15. The Alignment Economy'
+    title: '第十五章：对齐经济'
   },
   'chapter-16': {
-    title: '16. The Three Futures'
+    title: '第十六章：三种未来'
   },
   'chapter-17': {
-    title: '17. The Symbiotic State'
+    title: '第十七章：共生国家'
   },
   'chapter-18': {
-    title: '18. Money for Two Worlds'
+    title: '第十八章：两个世界的货币'
   },
   'chapter-19': {
-    title: '19. The Nucleation of the New'
+    title: '第十九章：新秩序的成核'
   },
   'chapter-20': {
-    title: '20. Intelligent Macroeconomics'
+    title: '第二十章：智能宏观经济学'
   },
   'chapter-21': {
-    title: '21. After Economics'
+    title: '第二十一章：经济学之后'
   },
   'epilogue': {
-    title: 'Epilogue'
+    title: '尾声'
   },
   'appendix-a': {
-    title: 'Appendix A'
+    title: '附录A'
   },
   'appendix-b': {
-    title: 'Appendix B'
+    title: '附录B'
   },
   'appendix-c': {
-    title: 'Appendix C'
+    title: '附录C'
   },
   'appendix-d': {
-    title: 'Appendix D'
+    title: '附录D'
   },
   'bibliography': {
-    title: 'Bibliography'
+    title: '参考文献'
   }
 }

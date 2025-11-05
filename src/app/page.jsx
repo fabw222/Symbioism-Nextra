@@ -29,7 +29,7 @@ export default function IndexPage() {
             {/* Text content */}
             <div className="text-center order-2">
               <a href="/docs/the-last-economy/introduction" className="px-6 py-3 rounded-2xl bg-[#BAE9F4] text-[#191E1B] font-bold text-lg hover:opacity-80 hover:cursor-pointer transition-colors shadow-[0_10px_30px_0_rgba(186,233,244,0.3)] inline-block">
-                Start Reading
+                开始阅读
               </a>
             </div>
           </div>
@@ -38,8 +38,8 @@ export default function IndexPage() {
           <div className="mt-12 md:mt-16 text-center max-w-5xl mx-auto">
             {/* Button part */}
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-sm md:text-base">
-              <a href="https://webstatics.ii.inc/The%20Last%20Economy.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> Download PDF</a>
-              <a href="https://webstatics.ii.inc/The%20Last%20Economy%20-%20FINAL%20EPUB.epub" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/apple.svg" alt="Apple" width={20} height={20} className="invert" /> Download EPUB</a>
+              <a href="https://webstatics.ii.inc/The%20Last%20Economy.pdf" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><CloudDownload /> 下载 PDF</a>
+              <a href="https://webstatics.ii.inc/The%20Last%20Economy%20-%20FINAL%20EPUB.epub" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/apple.svg" alt="Apple" width={20} height={20} className="invert" /> 下载 EPUB</a>
               <a href="https://amzn.eu/d/gRYoZHm" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/amazon.svg" alt="Kindle" width={20} height={20} className="invert" /> Kindle </a>
               <a href="https://notebooklm.google.com/notebook/64caceae-51f4-4744-ad4c-772cb9237ad2" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/notebooklm.svg" alt="NotebookLM" width={20} height={20} className="invert" /> NotebookLM </a>
               <a href="https://chatgpt.com/share/68a7323b-0620-8009-9de3-947e65565e63" className="border-2 border-[#BAE9F4] hover:bg-[#BAE9F4]/50 transition-colors py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-bold" target="_blank"><Image src="/logos/chatgpt.svg" alt="ChatGPT" width={20} height={20} className="invert" /> GPT-5 </a>
@@ -65,7 +65,7 @@ export default function IndexPage() {
                     ★ ★ ★ ★ ★
                   </p>
                   <p className="mt-3 text-base leading-relaxed text-white">
-                    "Mostaque has written the definitive guide to economics in the age of AI."
+                    "Mostaque 为AI时代撰写了权威的经济学指南。"
                   </p>
                 </div>
 
@@ -79,7 +79,7 @@ export default function IndexPage() {
                     ★ ★ ★ ★ ★
                   </p>
                   <p className="mt-3 text-base leading-relaxed text-white">
-                    "Blending systems thinking with institutional design, The Last Economy reframes economics as an alignment problem and offers a buildable blueprint for humane prosperity in the AI age."
+                    "融合系统思维与制度设计，《最后的经济》将经济学重新定义为对齐问题，并为AI时代的人性化繁荣提供了可实施的蓝图。"
                   </p>
                 </div>
 
@@ -93,7 +93,7 @@ export default function IndexPage() {
                     ★ ★ ★ ★ ★
                   </p>
                   <p className="mt-3 text-base leading-relaxed text-white">
-                    "A terrifying diagnosis of our dying economic paradigm and the essential blueprint for its successor."
+                    "对我们垂死的经济范式进行了令人震撼的诊断，并提供了其继任者的基本蓝图。"
                   </p>
                 </div>
               </div>
@@ -107,19 +107,19 @@ export default function IndexPage() {
           <div className="text-left">
             <div className="flex flex-col items-start sm:flex-row sm:items-center sm:justify-between gap-4 mb-6 sm:mb-8">
               <h2 className="text-4xl lg:text-5xl font-bold font-[Montserrat] leading-tight">
-                Intelligent Economics
+                智能经济学
               </h2>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMWfd2dFs3dJ5GO7M1yaGrqVWi7nhEaRaF5Sap_1cb9JlS3A/viewform?usp=sharing&ouid=113831395803110386421" className="bg-[#BAE9F4] text-black text-lg font-semibold px-3 py-1 rounded-full whitespace-nowrap" target="_blank">
-                Register Interest →
+                注册兴趣 →
               </a>
             </div>
             <div className="md:flex md:items-start md:gap-8">
               <div className="flex-1">
                 <p className="text-xl sm:text-2xl md:text-3xl text-[#BAE9F4]">
-                  The Symbioism Economics Framework
+                  共生主义经济学框架
                 </p>
                 <p className="mt-6 text-xl">
-                  Our full framework for Intelligent Economics. Formal mathematics, empirical findings, code and more.
+                  我们完整的智能经济学框架。包含形式化数学、实证研究、代码等。
                 </p>
               </div>
               <div className="mt-8 md:mt-0 flex-shrink-0">
@@ -139,11 +139,11 @@ export default function IndexPage() {
          <div className="relative z-10 pt-20">
            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 font-[Montserrat] leading-tight">
-              Do you want to be part of <br/>
-              <span className="text-[#BAE9F4]">changing the future?</span>
+              您想成为<br/>
+              <span className="text-[#BAE9F4]">改变未来</span>的一份子吗？
              </h2>
              <p className="text-base sm:text-lg lg:text-xl text-[#D5DCE0] max-w-4xl mx-auto mb-10 sm:mb-12 font-[Montserrat] leading-relaxed px-4">
-              Join us on our journey to create a better future for all.
+              加入我们，共同创造更美好的未来。
              </p>
 
              {/* Action Links */}
@@ -155,27 +155,27 @@ export default function IndexPage() {
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"
                 style={{ boxShadow: '0px 0px 40px rgba(186, 233, 244, 0.4)' }}
               >
-                Follow us X
+                在 X 上关注我们
               </a>
-              
-              <a 
-                href="https://discord.com/invite/intelligentinternet" 
-                target="_blank" 
+
+              <a
+                href="https://discord.com/invite/intelligentinternet"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"
                 style={{ boxShadow: '0px 0px 40px rgba(186, 233, 244, 0.4)' }}
               >
-                Join our Discord
+                加入我们的 Discord
               </a>
-              
-              <a 
-                href="https://github.com/Intelligent-Internet/Symbioism-Nextra" 
-                target="_blank" 
+
+              <a
+                href="https://github.com/Intelligent-Internet/Symbioism-Nextra"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="block bg-[#191E1B] border-2 border-[#BAE9F4] rounded-2xl py-5 px-8 text-[#D5DCE0] text-lg font-[Montserrat] hover:bg-[#BAE9F4] hover:text-[#191E1B] transition-all duration-300"
                 style={{ boxShadow: '0px 0px 40px rgba(186, 233, 244, 0.4)' }}
               >
-                Contribute on Github
+                在 Github 上贡献
               </a>
             </div>
           </div>

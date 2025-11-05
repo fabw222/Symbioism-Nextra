@@ -1,7 +1,7 @@
 /* eslint-env node */
 import { Footer as NextraFooter, Layout, Navbar } from 'nextra-theme-docs'
 import './globals.css'
-import { Montserrat, Nunito_Sans } from 'next/font/google'
+import { Montserrat, Nunito_Sans, Noto_Sans_SC } from 'next/font/google'
 import Link from 'next/link'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
@@ -17,28 +17,28 @@ export const openGraphImage = 'https://webstatics.ii.inc/TLE_OGImage.png'
 export const metadata = {
   metadataBase: new URL('https://www.thelasteconomy.com'),
   title: {
-    default: 'The Last Economy',
-    template: '%s - The Last Economy'
+    default: '最后的经济',
+    template: '%s - 最后的经济'
   },
-  description: 'A Third Path for the Intelligence Age',
-  applicationName: 'The Last Economy',
+  description: '智能时代的第三条路',
+  applicationName: '最后的经济',
   generator: 'Next.js',
   appleWebApp: {
-    title: 'The Last Economy'
+    title: '最后的经济'
   },
   openGraph: {
-    title: 'The Last Economy',
-    description: 'A Third Path for the Intelligence Age',
+    title: '最后的经济',
+    description: '智能时代的第三条路',
     url: 'https://www.thelasteconomy.com',
-    siteName: 'The Last Economy',
+    siteName: '最后的经济',
     images: [openGraphImage],
-    locale: 'en_US',
+    locale: 'zh_CN',
     type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Last Economy',
-    description: 'A Third Path for the Intelligence Age',
+    title: '最后的经济',
+    description: '智能时代的第三条路',
     images: [openGraphImage],
     site: '@EMostaque'
   }
@@ -56,13 +56,20 @@ const nunito_sans = Nunito_Sans({
   variable: '--font-nunito-sans',
 });
 
+const noto_sans_sc = Noto_Sans_SC({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-noto-sans-sc',
+  weight: ['300', '400', '500', '700', '900'],
+});
+
 export default async function RootLayout({ children }) {
   const navbar = (
     <Navbar
       logo={
         <div className="flex items-center">
           <div className="ml-2">
-            <b style={{ color: '#BAE9F4' }}>The Last Economy</b>
+            <b style={{ color: '#BAE9F4' }}>最后的经济</b>
           </div>
         </div>
       }
@@ -70,23 +77,23 @@ export default async function RootLayout({ children }) {
     >
       <div>
         <Link href="https://ii.inc/web/registration" target="_blank" rel="noopener noreferrer" className="bg-[#BAE9F4] text-black font-bold py-2 px-5 rounded-full text-sm no-underline transition-opacity hover:opacity-80 shadow-[0_10px_30px_0_rgba(186,233,244,0.3)]">
-          Sign up
+          注册
         </Link>
       </div>
     </Navbar>
   )
     const pageMap = await getPageMap()
   return (
-    <html lang="en" dir="ltr" suppressHydrationWarning>
+    <html lang="zh-CN" dir="ltr" suppressHydrationWarning>
       <Head />
       <CanonicalLink />
-      <body className={`${montserrat.variable} ${nunito_sans.variable}`}>
+      <body className={`${montserrat.variable} ${nunito_sans.variable} ${noto_sans_sc.variable}`}>
         <StarryBackground starCount={200} />
         <div className="relative z-10">
           <Layout
             // banner={<Banner storageKey="Nextra 2">Nextra 2 Alpha</Banner>}
             navbar={navbar}
-            editLink="Edit this page on GitHub"
+            editLink="在 GitHub 上编辑此页面"
             docsRepositoryBase="https://github.com/Intelligent-Internet/Symbioism-Nextra"
             sidebar={{ defaultMenuCollapseLevel: 1 }}
             pageMap={pageMap}

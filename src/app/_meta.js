@@ -7,7 +7,7 @@ export default {
   //   type: 'page'
   // },
   docs: {
-    title: 'Read Now',
+    title: '立即阅读',
     type: 'page',
   },
   // blog: {

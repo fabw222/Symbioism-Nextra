@@ -1,6 +1,6 @@
 export default {
   'the-last-economy': {
-    title: 'The Last Economy',
+    title: '最后的经济',
     type: 'page'
   },
   // index: {

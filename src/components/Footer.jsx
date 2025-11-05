@@ -17,9 +17,9 @@ const Footer = () => {
 
           {/* Resources */}
           <div className="mb-8 md:mb-0">
-            <h3 className="font-bold text-lg mb-4">Resources</h3>
+            <h3 className="font-bold text-lg mb-4">资源</h3>
             <ul className="text-[#D5DCE0] space-y-2">
-              <li><Link href="https://ii.inc" className="hover:text-white" target="_blank">Intelligent Internet</Link></li>
+              <li><Link href="https://ii.inc" className="hover:text-white" target="_blank">智能互联网</Link></li>
             </ul>
           </div>
 

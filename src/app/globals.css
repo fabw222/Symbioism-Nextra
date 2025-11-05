@@ -14,26 +14,26 @@
 }
 
 h1 {
-  font-family: var(--font-nunito-sans);
+  font-family: var(--font-nunito-sans), var(--font-noto-sans-sc), sans-serif;
   font-weight: bold;
 }
 
 h2 {
-  font-family: var(--font-nunito-sans);
+  font-family: var(--font-nunito-sans), var(--font-noto-sans-sc), sans-serif;
   font-weight: semi-bold;
 }
 
 h3 {
-  font-family: var(--font-nunito-sans);
+  font-family: var(--font-nunito-sans), var(--font-noto-sans-sc), sans-serif;
 }
 
 p {
-  font-family: var(--font-montserrat);
+  font-family: var(--font-montserrat), var(--font-noto-sans-sc), sans-serif;
 }
 
 body {
   background-color: #191E1B;
-  font-family: var(--font-montserrat);
+  font-family: var(--font-montserrat), var(--font-noto-sans-sc), sans-serif;
 }
 
 p a {
@@ -43,4 +43,26 @@ p a {
 .nextra-sidebar-footer,
 .nextra-navbar-blur {
   background-color: #191E1B;
+}
+
+/* 中文字体优化 */
+html[lang="zh-CN"] body {
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+}
+
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3 {
+  letter-spacing: 0.05em;
+}
+
+html[lang="zh-CN"] p {
+  line-height: 1.8;
+}
+
+/* 优化中文引用块样式 */
+html[lang="zh-CN"] blockquote {
+  line-height: 1.75;
+  letter-spacing: 0.03em;
 }
